@@ -9,7 +9,6 @@ function number100200(input) {
     } else if (num1 > max) {
         console.log("Greater than 200");
     }
-
 }
 number100200(["210"])
 
