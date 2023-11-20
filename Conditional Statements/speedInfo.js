@@ -13,7 +13,5 @@ function speedInfo(input) {
   } else if (speed > 1000) {
     console.log("extremely fast");
   }
-
-
 }
 speedInfo(["8"])
