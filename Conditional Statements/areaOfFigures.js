@@ -25,6 +25,4 @@ function areaOfFigures(input) {
     }
 
 }
-areaOfFigures(["rectangle",
-"7",
-"2.5"])
+areaOfFigures(["rectangle", "7", "2.5"])
