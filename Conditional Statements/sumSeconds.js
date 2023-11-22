@@ -10,10 +10,8 @@ if(secondsSum < 10){
 } else {
     console.log(`${minutesSum}:${secondsSum}`);
 }
-
 }
-sumSeconds(["14", "12",
-"10"])
+sumSeconds(["14", "12", "10"])
 
 
 
