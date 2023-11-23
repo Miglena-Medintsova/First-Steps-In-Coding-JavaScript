@@ -19,11 +19,4 @@ function bonusScore (input) {
     console.log(bonus);
     console.log(number + bonus);
 }
-
-    
-
-
-
-
-
 bonusScore(["175"])
