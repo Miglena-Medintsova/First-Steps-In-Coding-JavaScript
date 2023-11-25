@@ -22,8 +22,5 @@ function toyShop(input) {
         let moneyNedeed = vacationPrice - totalPrice;
         console.log(`Not enough money! ${moneyNedeed.toFixed(2)} lv needed.`)
     }
-
-
-
 }
 toyShop(["40.8", "20", "25", "30", "50", "10"])
