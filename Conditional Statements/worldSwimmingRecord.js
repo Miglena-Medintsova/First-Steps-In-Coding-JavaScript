@@ -17,6 +17,4 @@ if (totalTime < record){
     console.log(`No, he failed! He was ${neededTime.toFixed(2)} seconds slower.`);
 }
 }
-
-
 worldSwimmingRecord(["55555.67","3017","5.03"])
