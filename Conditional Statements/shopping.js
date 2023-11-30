@@ -27,9 +27,6 @@ function shopping(input) {
         console.log(`Not enough money! You need ${neededSum.toFixed(2)} leva more!`)
     }
 }
-shopping(["900",
-"2",
-"1",
-"3"])
+shopping(["900","2","1","3"])
 
 
