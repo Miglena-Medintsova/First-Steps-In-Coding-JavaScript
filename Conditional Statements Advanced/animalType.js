@@ -7,7 +7,6 @@ function animalType(input) {
         case "tortoise":
         case "snake": console.log("reptile"); break;
         default: console.log("unknown"); break;
-
     }
 }
 animalType(["cat"])
