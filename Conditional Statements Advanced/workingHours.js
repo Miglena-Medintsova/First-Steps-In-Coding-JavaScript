@@ -12,13 +12,10 @@ function workingHours(input) {
             case "Saturday": console.log("open"); break;
             case "Sunday":
             default: console.log("closed"); break;
-
-
         }
     } else {
         console.log("closed");
     }
 }
-workingHours(["11",
-    "Sunday"])
+workingHours(["11", "Sunday"])
 
