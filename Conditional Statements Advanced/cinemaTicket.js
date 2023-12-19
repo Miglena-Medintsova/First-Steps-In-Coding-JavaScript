@@ -11,10 +11,6 @@ function cinemaeTicket(input) {
         case "Saturday":
         case "Sunday": 
         default: console.log(16); break
-
-
     }
-
 }
-
 cinemaeTicket(["Sunday"])
