@@ -1,7 +1,6 @@
 function fruitOrVegetable(input) {
     let product = input[0];
-
-
+    
     switch (product) {
         case "banana":
         case "apple":
@@ -16,6 +15,4 @@ function fruitOrVegetable(input) {
         default: console.log("unknown"); break;
     }
 }
-
-
 fruitOrVegetable(["water"])
