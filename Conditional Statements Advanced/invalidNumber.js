@@ -5,5 +5,4 @@ function invalidNumber(input) {
         console.log("invalid");
     }
 }
-
 invalidNumber(["150"])
