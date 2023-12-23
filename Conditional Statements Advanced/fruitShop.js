@@ -33,16 +33,12 @@ function fruitShop(input) {
                 case "pineapple": finalSum = quantity * 5.6; console.log(finalSum.toFixed(2)); break;
                 case "grapes": finalSum = quantity * 4.2; console.log(finalSum.toFixed(2)); break;
                 default: console.log("error"); break;
-
             }
             break;
             default:console.log("error");
     }
 }
-
-fruitShop(["tomato",
-    "Monday",
-    "0.5"])
+fruitShop(["tomato", "Monday", "0.5"])
 
 
 
