@@ -2,7 +2,6 @@ function tradeCommissions(input) {
     let town = input[0];
     let sales = Number(input[1]);
 
-
     if (sales > 0 && sales <= 500) {
         switch (town) {
             case "Sofia": console.log((sales * 0.05).toFixed(2)); break;
@@ -36,5 +35,4 @@ function tradeCommissions(input) {
     console.log("error");
 }
 }
-
 tradeCommissions(["Sofia", "1500"])
