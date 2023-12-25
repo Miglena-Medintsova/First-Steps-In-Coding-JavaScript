@@ -13,13 +13,10 @@ if(movieType === 'Premiere') {
 
 } else if(movieType === 'Discount') {
     totalPrice = r * c * 5;
-
 }
 console.log(`${totalPrice.toFixed(2)} leva`);
 }
-cinema(["Discount",
-"12",
-"30"])
+cinema(["Discount", "12", "30"])
 
 
 
