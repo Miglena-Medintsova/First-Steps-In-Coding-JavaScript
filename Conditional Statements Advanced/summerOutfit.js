@@ -5,7 +5,6 @@ function summerOutfit(input) {
     let outfit ;
     let shoes ;
 
-
 if (degrees >= 10 && degrees <= 18){
     if (timeOfDay === 'Morning'){
         outfit = 'Sweatshirt';
@@ -18,8 +17,6 @@ if (degrees >= 10 && degrees <= 18){
         shoes = 'Moccasins';
     } 
     }
-
-
 else if (degrees > 18 && degrees <= 24){
     if (timeOfDay === 'Morning'){
         outfit = 'Shirt';
@@ -32,8 +29,6 @@ else if (degrees > 18 && degrees <= 24){
         shoes = 'Moccasins';
     } 
     }
-
-
 else if (degrees >= 25 ){
     if (timeOfDay === 'Morning'){
         outfit = 'T-Shirt';
@@ -49,9 +44,7 @@ else if (degrees >= 25 ){
 
 console.log(`It's ${degrees} degrees, get your ${outfit} and ${shoes}.`)
 }
-
-summerOutfit(["22",
-"Afternoon"])
+summerOutfit(["22", "Afternoon"])
 
 
 
