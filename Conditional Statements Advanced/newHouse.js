@@ -5,32 +5,31 @@ function newHouse(input) {
 
     let totalPrice = 0;
     
-
     switch (flowerType) {
         case 'Roses':
             totalPrice = flowerCount * 5;
             break;
 
-            case 'Dahlias':
-totalPrice = flowerCount * 3.80;
+        case 'Dahlias':
+            totalPrice = flowerCount * 3.80;
+            break;
+        
+        case 'Tulips':
+            totalPrice = flowerCount * 2.80;
             break;
 
-            case 'Tulips':
-                totalPrice = flowerCount * 2.80;
-                break;
-
-                case 'Narcissus':
-                    totalPrice = flowerCount * 3;
-                    break;
-
-                    case 'Gladiolus':
-                        totalPrice = flowerCount * 2.50;
-                        break;
+        case 'Narcissus':
+            totalPrice = flowerCount * 3;
+            break;
+        
+        case 'Gladiolus':
+            totalPrice = flowerCount * 2.50;
+            break;
     }
 
     if (flowerCount > 80 && flowerType === 'Roses') {
         totalPrice *= 0.90;
-    }else if (flowerCount > 90 && flowerType === 'Dahlias') {
+    } else if (flowerCount > 90 && flowerType === 'Dahlias') {
         totalPrice *= 0.85;
     } else if (flowerCount > 80 && flowerType === 'Tulips') {
         totalPrice *= 0.85;
@@ -47,14 +46,8 @@ totalPrice = flowerCount * 3.80;
         let moneyNeeded = totalPrice - budget;
         console.log(`Not enough money, you need ${moneyNeeded.toFixed(2)} leva more.`)
     }
-
-
 }
-
-
-newHouse(["Narcissus",
-"119",
-"360"])
+newHouse(["Narcissus", "119", "360"])
 
 
 
