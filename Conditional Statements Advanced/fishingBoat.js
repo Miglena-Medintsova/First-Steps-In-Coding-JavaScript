@@ -15,7 +15,6 @@ function fishingBoat(input) {
             } else if(fisherCount >= 12) {
                 price *= 0.75;
             }
-
             break;
 
         case 'Summer':
@@ -53,7 +52,6 @@ function fishingBoat(input) {
     }
     if (fisherCount % 2 === 0 && season !== 'Autumn') {
         price *= 0.95;
-
     }
     if (budget >= price) {
         let moneyLeft = budget - price;
@@ -63,9 +61,7 @@ function fishingBoat(input) {
         console.log(`Not enough money! You need ${moneyNeeded.toFixed(2)} leva.`)
     }
 }
-fishingBoat(["3000",
-    "Summer",
-    "11"])
+fishingBoat(["3000", "Summer", "11"])
 
 
 
