@@ -32,8 +32,6 @@ function journey(input) {
         totalPrice = budget * 0.90;
     }
 
-
-
     console.log(`Somewhere in ${destination}`);
     console.log(`${holidayKind} - ${totalPrice.toFixed(2)} `);
 }
