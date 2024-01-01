@@ -12,8 +12,7 @@ function operationsBetweenNumbers(input) {
         } else {
             console.log(`${n1} + ${n2} = ${result} - odd`);
         }
-
-
+        
     } else if (operator === '-') {
         result = n1 - n2;
         if (result % 2 === 0) {
@@ -44,21 +43,13 @@ function operationsBetweenNumbers(input) {
     } else if (operator === '%') {
         if (n2 === 0) {
             console.log(`Cannot divide ${n1} by zero`);
-
-            
         } else {
             result = n1 % n2;
             console.log(`${n1} % ${n2} = ${result}`);
         }
-
-
-
     }
-
 }
-operationsBetweenNumbers(["10",
-"3",
-"%"])
+operationsBetweenNumbers(["10", "3", "%"])
 
 
 
