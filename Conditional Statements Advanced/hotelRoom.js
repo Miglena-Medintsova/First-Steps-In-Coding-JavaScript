@@ -44,7 +44,6 @@ function hotelRoom(input) {
             } else {
                 totalPriceStudio = studioPrice * nightsCount;
                 totalPriceApartment = apartmentPrice * nightsCount;
-
             }
             break;
 
@@ -68,6 +67,5 @@ function hotelRoom(input) {
     console.log(`Apartment: ${totalPriceApartment.toFixed(2)} lv.`);
     console.log(`Studio: ${totalPriceStudio.toFixed(2)} lv.`)
 }
-hotelRoom(["June",
-"14"])
+hotelRoom(["June", "14"])
 
