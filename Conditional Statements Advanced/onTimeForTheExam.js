@@ -57,8 +57,6 @@ function onTimeForTheExam(input) {
             }else if(mm<9){
                 console.log(`${Math.floor(hh)}:${'0'}${mm} hours before the start`);
             }
-           
- 
         }
     }
 }
