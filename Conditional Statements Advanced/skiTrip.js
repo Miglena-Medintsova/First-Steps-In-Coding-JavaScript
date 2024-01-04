@@ -45,8 +45,6 @@ function skiTrip(input) {
                 
             }
             break;
-
-
     }
     if(review === 'positive') {
         totalPrice *= 1.25;
@@ -55,8 +53,6 @@ function skiTrip(input) {
     }
     console.log(totalPrice.toFixed(2));
 }
-skiTrip(["2",
-"apartment",
-"positive"])
+skiTrip(["2", "apartment", "positive"])
 
 
