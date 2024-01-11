@@ -9,7 +9,6 @@ function sumOfNumbers(input) {
         sum = sum + currentNumber;
     }
 console.log(`The sum of the digits is:${sum}`);
-
 }
 
 sumOfNumbers(["1234"])
