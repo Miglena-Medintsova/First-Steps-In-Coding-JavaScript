@@ -9,12 +9,10 @@ for (let i = n1; i <= n2; i++) {
     if (i % 9 === 0) {
         res += i;
         output += i + '\n';
-        
-    }
-   
-}
+        }
+   }
 console.log(`The sum: ${res}`);
 console.log(output);
-
 }
+
 numbersDivisibleBy9(["100", "200"])
