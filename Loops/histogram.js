@@ -21,7 +21,6 @@ function histogram(input) {
         } else {
             count5++;
         }
-
     }
 
     let p1 = (count1 / n) * 100;
@@ -35,7 +34,6 @@ function histogram(input) {
     console.log(`${p3.toFixed(2)}%`);
     console.log(`${p4.toFixed(2)}%`);
     console.log(`${p5.toFixed(2)}%`);
-
-
 }
+
 histogram(["3", "1", "2", "999"])
