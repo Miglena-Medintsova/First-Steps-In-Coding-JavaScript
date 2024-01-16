@@ -21,7 +21,6 @@ for (let i = 1; i <= age; i++) {
     let moneyNeeded = washerPrice - moneySaved;
     console.log(`No! ${moneyNeeded.toFixed(2)}`);
  }
-
-
 }
+
 cleverLily(["10","170.00","6"])
